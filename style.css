@@ -1,0 +1,49 @@
+.nav {
+    background-color: grey;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    width: 150px;
+    height: 60px;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.nav-links {
+    width: 400px;
+    height: 60px;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+li {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+.btn {
+    background-color: teal;
+    color: white;
+    box-shadow: 3px 2px black;
+}
